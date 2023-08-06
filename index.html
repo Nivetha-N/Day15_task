@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation with forms</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>DOM Manipulation with forms</h2>
+
+      <div class="form-group">
+        <form action="" id="form">
+          <label class="form-field" for="firstName">First name</label>
+          <input class="form-field" type="text" id="firstName" />
+
+          <label class="form-field" for="lastName">Last name</label>
+          <input class="form-field" type="text" id="lastName" />
+
+          <label class="form-field" for="address">Address</label>
+          <input class="form-field" type="text" id="adress" />
+
+          <label class="form-field" for="pincode">Pincode</label>
+          <input class="form-field" type="text" id="pincode" />
+
+          <label class="form-field" for="gender">Gender</label>
+          <select class="form-field" name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label class="form-field" for="food">Choice Of Food</label>
+          <select class="form-field" name="food" id="food">
+            <option value="cereal">Cereals</option>
+            <option value="salad">Salad</option>
+            <option value="fruit">Fruit Bowl</option>
+            <option value="south-indian">South-Indian</option>
+            <option value="continental">Continental</option>
+          </select>
+
+          <label class="form-field" for="state">State</label>
+          <input class="form-field" type="text" id="state" />
+
+          <label class="form-field" for="country">Country</label>
+          <input class="form-field" type="text" id="country" />
+
+          <br/>
+          <button class="form-field" type="submit" id="submit">submit</button>
+        </form>
+
+        <br/>
+        
+      </div>
+
+      <table class="table" >
+        <thead>
+          <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Adress</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Choice Of Food</th>
+            <th>State</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
